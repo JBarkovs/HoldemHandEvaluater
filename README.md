@@ -9,7 +9,7 @@ How it works:
 1) Recieves a String in input;
 2) If input correct passes the String to next operations, otherwise print error message;
 3) Sets up lists for hand evaluation;
-4) Finds and sets best combination for each hand;
+4) Finds and sets the best combination for each hand;
 5) Rearranges hand list by combination strength;
 6) Prints out the hand list in ascending order with ' ' inbetween, if scores are equal then the spacing is '='.
 
