@@ -19,4 +19,3 @@ Improvements needed:
 
 0) As for the task given, hands with equal strength are not printed in an alphabetic order;
 1) The task was completed with a straigth forward method, where the logic might still be improved;
-2) The code would need some cleaning up;
