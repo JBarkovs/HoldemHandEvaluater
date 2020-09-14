@@ -42,8 +42,7 @@ public class SortHandsByStrength {
 			// Check hand strength and rankSum
 			// if i+1 > i, then bringing the hand down the list
 			// if swapped increment counter check again 
-			while ((i - counter) >= 0 && hands.get(i - counter).getStrength() == hands.get(i + 1 - counter).getStrength() &&
-					hands.get(i - counter).getRankSum() <= hands.get(i + 1 - counter).getRankSum()) {
+			while ((i - counter) >= 0 && hands.get(i - counter).getStrength() == hands.get(i + 1 - counter).getStrength()) {
 				
 				// Loops through and compares ranks of each card in hand.bestCombination
 				for (int rankCheck = 0; rankCheck < 5; rankCheck++) {
