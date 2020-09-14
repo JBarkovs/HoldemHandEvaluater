@@ -19,8 +19,12 @@ public class RunEvaluation {
 			hands.clear();
 			// Get valid input
 			do {
-				input = scInput.nextLine();
-				input = (input.isBlank()) ? "0" : input;
+				if(scInput.hasNextLine()){
+					input = scInput.nextLine();
+					input = (input.isBlank()) ? "0" : input;
+					} else {
+						input = "0";
+					}
 			} while (!HoldemInputValidator.isValidInput(input));
 
 			if (!input.equals("stop")) {
