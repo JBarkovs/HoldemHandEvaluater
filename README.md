@@ -9,7 +9,9 @@ Develop an algorithm for comparing the strength of Texas Hold'em Hands. A value 
 The program responds each line of input with one line of output - hands in ascending order or error message. Program runs till it recieves 'stop' in input. The amount of players - 2 till 10 included. The program uses Hand and Card objects for evaluation.
 
 Valid input is a string where the first 10 charcter represent the board which is followed by ' ' and next four characters representing each hand afterwards. Valid card ranks are - "A", "K", "Q", "J", "T", "9", "8", "7", "6", "5", "4", "3", "2". Valid card suits are - "h", "d", "c", "s".
+
 Example input: 4cKs4h8s7s Ad4s Ac4d As9s KhKd Kc7h
+
 Output: Kc7h Ac4d=Ad4s As9s KhKd
 
 
