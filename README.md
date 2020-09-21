@@ -2,8 +2,12 @@
 
 Overview
 --------
-Import the project in your IDE and run the ../src/main/Main.java file, no extra packages were used, only the java built in ones. The program responds each line of input with one line of output - hands in ascending order or error message. Program runs till it recieves 'stop' in input. The input is checked as for the task specifics, the amount of players - 2 till 10 included.
-The program uses Hand and Card objects for evaluation.
+Import the project in your IDE and run the ../src/main/Main.java file, no extra packages were used, only the java built in ones. The program responds each line of input with one line of output - hands in ascending order or error message. Program runs till it recieves 'stop' in input. The amount of players - 2 till 10 included. The program uses Hand and Card objects for evaluation.
+
+Valid input is a string with first 10 charcter representing the board cards which is followed by 'space' and next four characters representing each hand afterwards. Valid card ranks are - "A", "K", "Q", "J", "T", "9", "8", "7", "6", "5", "4", "3", "2". Valid card suits are - "h", "d", "c", "s".
+Example: 4cKs4h8s7s Ad4s Ac4d As9s KhKd Kc7h
+
+
 
 How it works:
 
