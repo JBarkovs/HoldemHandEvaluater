@@ -10,9 +10,9 @@ The program responds each line of input with one line of output - hands in ascen
 
 Valid input is a string where the first 10 charcter represent the board which is followed by ' ' and next four characters representing each hand afterwards. Valid card ranks are - "A", "K", "Q", "J", "T", "9", "8", "7", "6", "5", "4", "3", "2". Valid card suits are - "h", "d", "c", "s".
 
-Example input: 4cKs4h8s7s Ad4s Ac4d As9s KhKd Kc7h
+Example input:  4cKs4h8s7s Ad4s Ac4d As9s KhKd Kc7h
 
-Output: Kc7h Ac4d=Ad4s As9s KhKd
+Example output: Kc7h Ac4d=Ad4s As9s KhKd
 
 
 How it works:
