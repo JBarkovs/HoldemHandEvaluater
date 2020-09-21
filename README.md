@@ -28,5 +28,7 @@ How it works:
 Improvements needed:
 
 0) As for the task given, hands with equal strength are not printed in an alphabetic order;
-1) The task was completed with a straigth forward method, where the logic should be improved; 
+
+1) The task was completed with a straigth forward method, where the logic should be improved;
+
 1.1) The code is not optimized and serves just as a way to complete the task;
